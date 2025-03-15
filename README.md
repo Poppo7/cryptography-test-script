@@ -3,7 +3,7 @@
 This script is an introduction to basic cryptography concepts, focusing on Base64 encoding and Fernet encryption.
 
 ## Base64
-**Base64** is a way to encode binary data in a text-friendly format. It doesn't encrypt the data but rather converts bytes (which may include unprintable characters) into ASCII characters, making it safer to store or transmit in text-based environments.
+**Base64** is a way to encode binary data in a text-friendly format. It doesn't encrypt the data but rather converts bytes (which may include unprintable characters) into character-encoding-standard, (like ASCII, Unicode, and UTF-8) making it safer to store or transmit in text-based environments.
 
 When working with **Fernet** keys, you'll often see a **32-byte key** represented in Base64 form. Decoding that Base64-encoded string returns the raw 32-byte key used for actual encryption and decryption.
 
