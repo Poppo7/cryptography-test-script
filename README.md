@@ -26,8 +26,16 @@ Run the following command to install the required Python package:
 `pip install cryptography`
 
 
-Linux: 
+**Linux:**
 
 `sudo apt-get update`
 
 `sudo apt-get install build-essential libssl-dev libffi-dev python3-dev`
+
+## Sources
+https://en.wikipedia.org/wiki/Base64
+
+https://cryptography.io/en/latest/fernet/
+
+**Sample Fernet Key Generator:**
+https://fernetkeygen.com/
