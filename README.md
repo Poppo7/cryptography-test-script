@@ -33,9 +33,14 @@ Run the following command to install the required Python package:
 `sudo apt-get install build-essential libssl-dev libffi-dev python3-dev`
 
 ## Sources
+**Base64:**
 https://en.wikipedia.org/wiki/Base64
 
+**Fernet:**
 https://cryptography.io/en/latest/fernet/
+
+**Byte:**
+https://en.wikipedia.org/wiki/Byte
 
 **Sample Fernet Key Generator:**
 https://fernetkeygen.com/
